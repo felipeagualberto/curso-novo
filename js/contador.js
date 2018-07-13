@@ -75,6 +75,9 @@ var interval;
     }
 }) (jQuery);
 
+$('.carousel').carousel({
+  interval: 3000
+})
 
 //Call countdown plugin
 $(".countdown").countdown({
